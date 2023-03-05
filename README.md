@@ -1,6 +1,6 @@
-# [Raformer: Rationale-Empowered Transformer for Video Question Answering]()
+# [TranSTR: Discovering Spatio-Temporal Rationales for Video Question Answering]()
 
-In repo contains the code for "Raformer: Rationale-Empowered Transformer for Video Question Answering"
+In repo contains the code for "Discovering Spatio-Temporal Rationales for Video Question Answering"
 
 
 ## Environment
