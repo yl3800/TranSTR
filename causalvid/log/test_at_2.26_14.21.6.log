@@ -1,0 +1,4 @@
+[2023-02-26 14:21:06] a=1_activation='relu'_bs=32_d_model=768_dataset='next-qa'_decay=0.001_dropout=0.1_encoder_dropout=0.1_epoch=15_es=False_freeze_text_encoder=False_gamma=0.25_gpu=3_hard_eval=False_lr=1e-05_n_query=5_neg_ratio=0.3_nheads=8_normalize_before=False_num_decoder_layers=1_num_encoder_layers=1_objs=20_patience=1_pos_ratio=0.7_text_encoder_lr=5e-06_text_encoder_type='microsoft/deberta-base'_text_pool_mode=0_topK_frame=8_topK_obj=5_v='test'_word_dim=768
+[2023-02-26 14:25:46] Des       Exp       Pred-A    Pred-R    CF-A      CF-R      Pred      CF    
+[2023-02-26 14:25:46] 73.64     75.83     65.11     65.00     68.59     65.26     48.94     50.32
+[2023-02-26 14:25:46] Acc: 62.18

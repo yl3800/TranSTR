@@ -1,0 +1,21 @@
+[2023-02-16 03:47:42] a=1_activation='relu'_bs=32_d_model=768_dataset='next-qa'_decay=0.001_dropout=0.1_encoder_dropout=0.1_epoch=15_es=False_freeze_text_encoder=False_gamma=0.25_gpu=1_hard_eval=True_lr=1e-05_n_query=5_neg_ratio=0.3_nheads=8_normalize_before=False_num_decoder_layers=1_num_encoder_layers=1_objs=20_patience=1_pos_ratio=0.7_text_encoder_lr=5e-06_text_encoder_type='microsoft/deberta-base'_text_pool_mode=0_topK_frame=5_topK_obj=12_v='hard_fk5_ok12_cnt35'_word_dim=768
+[2023-02-16 04:07:16] ==>Epoch:[1/15][LR1e-05][Train Loss: 1.4455 Train acc: 36.21 Val acc: 44.22 Test: 45.45
+[2023-02-16 04:22:54] ==>Epoch:[2/15][LR1e-05][Train Loss: 1.1865 Train acc: 52.08 Val acc: 50.08 Test: 51.17
+[2023-02-16 04:38:49] ==>Epoch:[3/15][LR1e-05][Train Loss: 0.9962 Train acc: 60.21 Val acc: 57.57 Test: 57.72
+[2023-02-16 04:54:33] ==>Epoch:[4/15][LR1e-05][Train Loss: 0.8445 Train acc: 66.92 Val acc: 59.35 Test: 59.95
+[2023-02-16 05:10:16] ==>Epoch:[5/15][LR1e-05][Train Loss: 0.7292 Train acc: 71.71 Val acc: 60.25 Test: 60.53
+[2023-02-16 05:26:00] ==>Epoch:[6/15][LR1e-05][Train Loss: 0.6215 Train acc: 75.71 Val acc: 61.05 Test: 60.35
+[2023-02-16 05:41:41] ==>Epoch:[7/15][LR1e-05][Train Loss: 0.5287 Train acc: 79.40 Val acc: 61.95 Test: 60.86
+[2023-02-16 05:57:13] ==>Epoch:[8/15][LR1e-05][Train Loss: 0.4421 Train acc: 82.96 Val acc: 61.31 Test: 61.01
+[2023-02-16 06:12:42] ==>Epoch:[9/15][LR2.5e-06][Train Loss: 0.3688 Train acc: 85.82 Val acc: 61.39 Test: 60.78
+[2023-02-16 06:28:20] ==>Epoch:[10/15][LR2.5e-06][Train Loss: 0.2658 Train acc: 89.89 Val acc: 61.59 Test: 61.54
+[2023-02-16 06:44:03] ==>Epoch:[11/15][LR2.5e-06][Train Loss: 0.2396 Train acc: 90.83 Val acc: 61.97 Test: 61.52
+[2023-02-16 06:59:36] ==>Epoch:[12/15][LR2.5e-06][Train Loss: 0.2204 Train acc: 91.69 Val acc: 61.41 Test: 61.10
+[2023-02-16 07:15:12] ==>Epoch:[13/15][LR6.25e-07][Train Loss: 0.2109 Train acc: 92.08 Val acc: 61.95 Test: 61.34
+[2023-02-16 07:30:51] ==>Epoch:[14/15][LR6.25e-07][Train Loss: 0.1861 Train acc: 92.92 Val acc: 61.71 Test: 61.51
+[2023-02-16 07:46:28] ==>Epoch:[15/15][LR1.5625e-07][Train Loss: 0.1823 Train acc: 93.01 Val acc: 61.87 Test: 61.62
+[2023-02-16 07:46:28] Epoch 11 Best Val acc61.97
+[2023-02-16 07:47:12] Test acc61.52 on 11 epoch
+[2023-02-16 07:47:13] Why       How       Bef&Aft       When       Cnt       Loc       Other       Acc_C       Acc_T       Acc_D
+[2023-02-16 07:47:13] 60.44      57.46      58.04      62.92      52.80      85.92      66.50      59.66      60.18      70.04
+[2023-02-16 07:47:13] Acc: 61.52

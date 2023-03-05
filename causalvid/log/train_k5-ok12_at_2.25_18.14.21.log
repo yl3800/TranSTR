@@ -1,0 +1,18 @@
+[2023-02-25 18:14:21] a=1_activation='relu'_bs=32_d_model=768_dataset='next-qa'_decay=0.001_dropout=0.1_encoder_dropout=0.1_epoch=15_es=False_freeze_text_encoder=False_gamma=0.25_gpu=2_hard_eval=True_lr=1e-05_n_query=5_neg_ratio=0.3_nheads=8_normalize_before=False_num_decoder_layers=1_num_encoder_layers=1_objs=20_patience=1_pos_ratio=0.7_text_encoder_lr=5e-06_text_encoder_type='microsoft/deberta-base'_text_pool_mode=0_topK_frame=5_topK_obj=12_v='fk5-ok12'_word_dim=768
+[2023-02-25 18:48:17] ==>Epoch:[1/15][LR1e-05][Train Loss: 0.9921 Train acc: 62.54 Val acc: 65.13 Test: 64.76
+[2023-02-25 19:22:03] ==>Epoch:[2/15][LR1e-05][Train Loss: 0.7019 Train acc: 76.88 Val acc: 67.79 Test: 67.59
+[2023-02-25 19:56:25] ==>Epoch:[3/15][LR1e-05][Train Loss: 0.6080 Train acc: 80.38 Val acc: 67.93 Test: 67.60
+[2023-02-25 20:30:33] ==>Epoch:[4/15][LR1e-05][Train Loss: 0.5221 Train acc: 82.96 Val acc: 68.70 Test: 68.31
+[2023-02-25 21:04:24] ==>Epoch:[5/15][LR1e-05][Train Loss: 0.4362 Train acc: 84.89 Val acc: 68.29 Test: 68.06
+[2023-02-25 21:38:18] ==>Epoch:[6/15][LR1e-05][Train Loss: 0.3594 Train acc: 86.92 Val acc: 69.41 Test: 68.91
+[2023-02-25 22:11:55] ==>Epoch:[7/15][LR1e-05][Train Loss: 0.3031 Train acc: 88.58 Val acc: 67.62 Test: 67.60
+[2023-02-25 22:45:35] ==>Epoch:[8/15][LR2.5e-06][Train Loss: 0.2624 Train acc: 89.90 Val acc: 68.34 Test: 68.39
+[2023-02-25 23:19:18] ==>Epoch:[9/15][LR2.5e-06][Train Loss: 0.1935 Train acc: 92.20 Val acc: 67.92 Test: 67.66
+[2023-02-25 23:52:59] ==>Epoch:[10/15][LR6.25e-07][Train Loss: 0.1720 Train acc: 93.10 Val acc: 67.81 Test: 67.53
+[2023-02-26 00:26:46] ==>Epoch:[11/15][LR6.25e-07][Train Loss: 0.1536 Train acc: 93.90 Val acc: 68.03 Test: 67.86
+[2023-02-26 01:00:36] ==>Epoch:[12/15][LR1.5625e-07][Train Loss: 0.1492 Train acc: 93.97 Val acc: 68.11 Test: 67.86
+[2023-02-26 01:34:29] ==>Epoch:[13/15][LR1.5625e-07][Train Loss: 0.1444 Train acc: 94.22 Val acc: 68.19 Test: 67.83
+[2023-02-26 02:08:20] ==>Epoch:[14/15][LR3.90625e-08][Train Loss: 0.1425 Train acc: 94.24 Val acc: 68.24 Test: 67.93
+[2023-02-26 02:42:10] ==>Epoch:[15/15][LR3.90625e-08][Train Loss: 0.1424 Train acc: 94.27 Val acc: 68.10 Test: 67.72
+[2023-02-26 02:42:10] Epoch 6 Best Val acc69.41
+[2023-02-26 02:45:13] Test acc68.91 on 6 epoch

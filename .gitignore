@@ -1,0 +1,12 @@
+*.pth
+*.h5
+*.zip
+*.pkl
+*.ckpt
+*.ipynb
+
+# */*/log/*
+# */*/models/*
+# */*/prediction/*
+# # */*/results/*
+__pycache__/
