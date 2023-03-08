@@ -1,0 +1,15 @@
+[2023-02-15 09:47:49] activation='relu'_bs=128_d_model=768_dataset='msrvtt-qa'_decay=0.001_dropout=0.1_encoder_dropout=0.1_epoch=12_es=False_freeze_text_encoder=False_gamma=0.1_gpu=2_hard_eval=True_lr=0.0001_mile_stone='5'_n_query=5_nheads=8_normalize_before=False_num_decoder_layers=1_num_encoder_layers=1_objs=10_patience=1_text_encoder_lr=1e-05_text_encoder_type='microsoft/deberta-base'_topK_frame=1_topK_obj=5_v='hard_bs128_lr1e4_fk1_ok5_cnt5'_word_dim=768
+[2023-02-15 10:06:28] ==>Epoch:[1/12][LR0.0001][Train Loss: 3.8516 Train acc: 33.98 Val acc: 37.13 Test: 37.72
+[2023-02-15 10:22:45] ==>Epoch:[2/12][LR0.0001][Train Loss: 2.8703 Train acc: 43.53 Val acc: 40.39 Test: 40.46
+[2023-02-15 10:39:37] ==>Epoch:[3/12][LR0.0001][Train Loss: 2.4569 Train acc: 48.22 Val acc: 40.42 Test: 40.99
+[2023-02-15 10:56:34] ==>Epoch:[4/12][LR0.0001][Train Loss: 2.1391 Train acc: 52.23 Val acc: 41.26 Test: 41.70
+[2023-02-15 11:13:35] ==>Epoch:[5/12][LR1e-05][Train Loss: 1.8680 Train acc: 55.93 Val acc: 41.82 Test: 42.19
+[2023-02-15 11:30:19] ==>Epoch:[6/12][LR1e-05][Train Loss: 1.4419 Train acc: 63.83 Val acc: 42.60 Test: 43.05
+[2023-02-15 11:46:38] ==>Epoch:[7/12][LR1e-05][Train Loss: 1.3561 Train acc: 65.58 Val acc: 42.32 Test: 42.82
+[2023-02-15 12:02:55] ==>Epoch:[8/12][LR1e-05][Train Loss: 1.3037 Train acc: 66.72 Val acc: 42.30 Test: 42.78
+[2023-02-15 12:19:37] ==>Epoch:[9/12][LR1e-05][Train Loss: 1.2579 Train acc: 67.64 Val acc: 42.07 Test: 42.65
+[2023-02-15 12:36:21] ==>Epoch:[10/12][LR1e-05][Train Loss: 1.2159 Train acc: 68.53 Val acc: 42.21 Test: 42.42
+[2023-02-15 12:53:05] ==>Epoch:[11/12][LR1e-05][Train Loss: 1.1784 Train acc: 69.30 Val acc: 42.17 Test: 42.48
+[2023-02-15 13:09:51] ==>Epoch:[12/12][LR1e-05][Train Loss: 1.1390 Train acc: 70.17 Val acc: 42.17 Test: 42.43
+[2023-02-15 13:09:51] Epoch 6 Best Val acc42.60
+[2023-02-15 13:11:02] Test acc43.05 on 6 epoch
