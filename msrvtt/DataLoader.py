@@ -9,13 +9,13 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import RobertaTokenizerFast
 
 class VideoQADataset(Dataset):
-    def __init__(self, split, obj_num=1, sample_list_path="/storage_fast/ycli/data/vqa/msrvtt/anno",\
-         video_feature_path="/storage_fast/jbxiao/workspace/VideoQA/data/msrvtt" ):
+    def __init__(self, split, obj_num=1, sample_list_path="/data/vqa/msrvtt/anno",\
+         video_feature_path="/VideoQA/data/msrvtt" ):
         super(VideoQADataset, self).__init__()
         # 读取dataset
         self.sample_list_file = osp.join(sample_list_path, "{}.csv".format(split))
         self.sample_list = load_file(self.sample_list_file)
-        ans=load_file('/storage_fast/ycli/data/vqa/msrvtt/anno/ans_word_5000.json')
+        ans=load_file('/msrvtt/anno/ans_word_5000.json')
         self.ans2idx={a:idx for idx,a in enumerate(ans)}
         print(len(ans))
         self.sample_list['answer_id'] = self.sample_list['answer'].map(self.ans2idx)
@@ -28,7 +28,7 @@ class VideoQADataset(Dataset):
         self.split = split
 
         # 读取video feature
-        frame_feat_file = osp.join('/storage_fast/ycli/data/vqa/msrvtt/feature/blip/model_base_vqa_capfilt_large', '{}.h5'.format(split))
+        frame_feat_file = osp.join('/model_base_vqa_capfilt_large', '{}.h5'.format(split))
         object_feat_file = osp.join(video_feature_path, "region_feat_n/acregion_8c10b_{}.h5".format(split))
         print("Loading {} ...".format(frame_feat_file))
         print("Loading {} ...".format(object_feat_file))

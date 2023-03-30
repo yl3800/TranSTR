@@ -9,8 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import RobertaTokenizerFast
 
 class VideoQADataset(Dataset):
-    def __init__(self, split, n_query=5, obj_num=1, sample_list_path="/storage_fast/ycli/data/vqa/causal/anno",\
-         video_feature_path="/ssd1/ycli/region_feat_aln" ):
+    def __init__(self, split, n_query=5, obj_num=1, sample_list_path="/data/vqa/causal/anno",\
+         video_feature_path="/region_feat_aln" ):
         super(VideoQADataset, self).__init__()
         # 读取dataset
         self.sample_list_file = osp.join(sample_list_path, "{}.csv".format(split))
@@ -20,7 +20,7 @@ class VideoQADataset(Dataset):
         self.obj_num = obj_num
         # 读取video feature
         
-        frame_feat_file = osp.join('/storage_fast/ycli/data/vqa/causal/feature/blip/model_base_vqa_capfilt_large', '{}.h5'.format(split))
+        frame_feat_file = osp.join('/model_base_vqa_capfilt_large', '{}.h5'.format(split))
         # object_feat_file = osp.join(video_feature_path, "region_feat_n/acregion_8c20b_{}.h5".format(split))
         self.map_dir = load_file(osp.join(sample_list_path, 'map_dir_caul.json'))
         self.obj_feat_dir = video_feature_path
