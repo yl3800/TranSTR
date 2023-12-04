@@ -23,10 +23,7 @@ After downloading the data, please put the data under the folder ```['video_feat
 ## Usage
 Once the data is ready, you can easily run the code. There are four folders whose names reprensent datasets. You can enter the folder accordingly. After entering a specific folder: 
 
-First, to test the environment and code, we provide the prediction and weight of the models that indicate in the paper. You can get the results reported in the paper by running: 
->python train.py -v=test -m=test
-
-The command above will load the best model file (click [here](https://drive.google.com/drive/folders/18uKR9LXhm4OHjVrNqUtPeOsDIqs5qkwz?usp=sharing) to download) under ['models/'], predict with it in test set and evaluate it. If you want to train the model, please run
+If you want to train the model, please run
 
 >python train.py -v=train -m=train
 
