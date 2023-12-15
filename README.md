@@ -15,7 +15,7 @@ Please create an env for this project using anaconda (should install [anaconda](
 >pip install -r requirements.txt 
 ```
 ## Data Preparation
-Please download the pre-computed features and QA annotations from [MSRVTT , MSVD](https://drive.google.com/drive/folders/1JRPeEUW297xSY33Gf6z_Lx62ufgLLNO6?usp=sharing) , [NExT](https://github.com/doc-doc/NExT-QA) , [Causal-Vid](https://github.com/bcmi/Causal-VidQA).
+Please download the pre-computed features and QA annotations from [MSRVTT , MSVD](https://drive.google.com/drive/folders/1JRPeEUW297xSY33Gf6z_Lx62ufgLLNO6?usp=sharing), [NExT](https://github.com/doc-doc/NExT-QA) , [Causal-Vid](https://github.com/bcmi/Causal-VidQA).
 
 After downloading the data, please put the data under the folder ```['video_feature']```  accordingly. Furthermore, you can modified the path in ['Dataloader.py'] to load the feature. 
 
